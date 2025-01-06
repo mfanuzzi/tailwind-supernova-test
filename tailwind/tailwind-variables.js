@@ -2,24 +2,12 @@ module.exports = {
     'colors': {
         'white': '#ffffff', 
         'black': '#000000', 
-        'orange': '#cb4e00', 
+        'on-background': {
+            'primary': '#ffffff', /* To be used on Primary and Primary Highlighted background colors. */
+        },
         'base': {
             'white': '#ffffff', 
             'black': '#000000', 
-        },
-        'base-gray': {
-            '200': '#f6f7f9', 
-            '300': '#e6e8ef', 
-            '500': '#c6ccdb', 
-            '600': '#7f8594', 
-            '700': '#606981', 
-        },
-        'base-purple': {
-            '200': '#f5f2fd', 
-            '300': '#d9c8f5', 
-            '500': '#be9ff0', 
-            '600': '#a275ea', 
-            '700': '#874ce6', 
         },
         'base-blue': {
             '200': '#ecf5ff', 
@@ -35,8 +23,19 @@ module.exports = {
             '600': '#35a24f', 
             '700': '#007a1c', 
         },
-        'on-background': {
-            'primary': '#ffffff', /* To be used on Primary and Primary Highlighted background colors. */
+        'base-gray': {
+            '200': '#f6f7f9', 
+            '300': '#e6e8ef', 
+            '500': '#c6ccdb', 
+            '600': '#7f8594', 
+            '700': '#606981', 
+        },
+        'base-purple': {
+            '200': '#f5f2fd', 
+            '300': '#d9c8f5', 
+            '500': '#be9ff0', 
+            '600': '#a275ea', 
+            '700': '#874ce6', 
         },
         'background': {
             'neutral': '#f6f7f9', 
@@ -48,17 +47,17 @@ module.exports = {
             'secondary-highlighted': '#a275ea', 
             'secondary-faded': '#f5f2fd', 
             'positive': '#007a1c', 
-            'positive-highlighted': '#35a24f', 
             'blur': '#ffffffcc', /* For use in combination with Blur tokens. */
-            'positive-faded': '#ebfef6', 
+            'positive-highlighted': '#35a24f', 
             'blur-neutral': '#606981cc', /* For use in combination with Blur tokens. */
+            'positive-faded': '#ebfef6', 
         },
         'foreground': {
             'neutral': '#000000', 
             'neutral-faded': '#606981', 
             'disabled': '#c6ccdb', 
             'primary': '#014ee1', 
-            'secondary': '#cb4e00', 
+            'secondary': '#007a1c', 
             'positive': '#007a1c', 
         },
         'border': {
