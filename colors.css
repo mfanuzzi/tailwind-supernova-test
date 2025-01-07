@@ -795,7 +795,7 @@
     --color-colors-custom-alpha-11: #0000009b; 
     --color-colors-custom-alpha-12: #000000df; 
     --color-colors-default-white: #ffffff; 
-    --color-colors-default-black: #1c2024; /* Based on Slate 12 */
+    --color-colors-default-black: #000000; /* Based on Slate 12 */
     --color-variables-misc-white-to-dark: #ffffff; 
     --color-colors-neutral-neutral-12: #1c2024; 
     --color-variables-misc-dark-to-white: #1c2024; 
@@ -953,6 +953,6 @@
     --color-tokens-colors-overlay: #00083046; 
     --color-tokens-colors-white-contrast: #ffffff; 
     --color-tokens-colors-accent-contrast: #ffffff; 
-    --color-tokens-colors-black-contrast: #1c2024; 
+    --color-tokens-colors-black-contrast: #000000; 
     --color-tokens-colors-text: #1c2024; 
 }

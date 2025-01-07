@@ -908,7 +908,7 @@ module.exports = {
         },
         'colors-default': {
             'white': '#ffffff', 
-            'black': '#1c2024', /* Based on Slate 12 */
+            'black': '#000000', /* Based on Slate 12 */
         },
         'colors-accent-accent': {
             '1': '#fdfdfe', 
@@ -1118,7 +1118,7 @@ module.exports = {
             'overlay': '#00083046', 
             'accent-contrast': '#ffffff', 
             'white-contrast': '#ffffff', 
-            'black-contrast': '#1c2024', 
+            'black-contrast': '#000000', 
             'text': '#1c2024', 
         },
     },
